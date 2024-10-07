@@ -8,7 +8,7 @@ let res = "";
 while (cur <= n) {
     if (cur % 3 === 0) {
         res += "0 ";
-    } else if (cur.toString().indexOf("3") > 0 || cur.toString().indexOf("6") > 0 || cur.toString().indexOf("9") > 0) {
+    } else if (cur.toString().indexOf("3") >= 0 || cur.toString().indexOf("6") >= 0 || cur.toString().indexOf("9") >= 0) {
         res += "0 ";
     } else {
         res += cur + " ";
